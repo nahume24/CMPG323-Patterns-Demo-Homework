@@ -170,3 +170,5 @@ C:\Users\user\source\repos\nahume24\CMPG323-Patterns-Demo-Homework\OrgOffering\O
 C:\Users\user\source\repos\nahume24\CMPG323-Patterns-Demo-Homework\OrgOffering\OrgOffering\obj\Debug\netcoreapp3.1\OrgOffering.dll
 C:\Users\user\source\repos\nahume24\CMPG323-Patterns-Demo-Homework\OrgOffering\OrgOffering\obj\Debug\netcoreapp3.1\OrgOffering.pdb
 C:\Users\user\source\repos\nahume24\CMPG323-Patterns-Demo-Homework\OrgOffering\OrgOffering\obj\Debug\netcoreapp3.1\OrgOffering.genruntimeconfig.cache
+C:\Users\user\source\repos\nahume24\CMPG323-Patterns-Demo-Homework\OrgOffering\OrgOffering\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\user\source\repos\nahume24\CMPG323-Patterns-Demo-Homework\OrgOffering\OrgOffering\bin\Debug\netcoreapp3.1\appsettings.json
