@@ -7,22 +7,29 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using OrgOffering.Data;
 using OrgOffering.Models;
+using OrgOffering.Repository;
 
 namespace OrgOffering.Controllers
 {
     public class ServicesController : Controller
     {
         private readonly CMPG323Context _context;
+        private readonly IServiceRepository _serviceRepository;
 
         public ServicesController(CMPG323Context context)
         {
             _context = context;
+           // _serviceRepository = serviceRepository;
+
+
         }
 
         // GET: Services
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Service.ToListAsync());
+            return View(_serviceRepository.GetAll());
+
+            //return View(await _context.Service.ToListAsync());
         }
 
         // GET: Services/Details/5

@@ -37,6 +37,9 @@ namespace OrgOffering
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            services.AddTransient(typeof(IGenericRepository<>));
+            services.AddTransient<IServiceRepository, ServiceRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
